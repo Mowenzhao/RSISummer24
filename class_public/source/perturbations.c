@@ -6703,7 +6703,7 @@ int perturbations_einstein(
 
     /** if (ppt->has_source_delta_m == _TRUE_) {
       // ppw->delta_m += 3. *ppw->pvecback[pba->index_bg_a]*ppw->pvecback[pba->index_bg_H] * ppw->theta_m/k2;
-    ////////////////////////////////////////// commented out
+    ////////////////////////////////////////// commented out*/
     
       // note: until 2.4.3 there was a typo, the factor was (-2 H'/H) instead
       // of (3 aH). There is the same typo in the CLASSgal paper
@@ -6718,7 +6718,7 @@ int perturbations_einstein(
 
     if (ppt->has_source_delta_cb == _TRUE_) {
       ppw->delta_cb += 3. *ppw->pvecback[pba->index_bg_a]*ppw->pvecback[pba->index_bg_H] * ppw->theta_cb/k2;//check gauge transformation
-    } */
+    }
 
     if (ppt->has_source_theta_m == _TRUE_) {
       if  (ppt->gauge == synchronous) {
